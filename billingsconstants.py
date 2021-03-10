@@ -93,5 +93,5 @@ ExampleClient = Client(client_list, "ExampleClient", 20., '€', "DE", 31)  #  U
 New Clients/Projects go below here: 
 """
 
-# To create a client named JaneDoe who bills 25 $ per hour and wants English language chart titles, remove the '#' from the line below: 
+# To create a client named JaneDoe who is billed 25 $ per hour and wants English language chart titles, remove the '#' from the line below: 
 # JaneDoe = Client(client_list, "JaneDoe", 25., '$', "EN", 31)
