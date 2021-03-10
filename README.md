@@ -20,7 +20,7 @@ Command Line program to record and visualize time spent on projects. Create invo
 
 ### Installation
 1. Make sure you have Python installed on your system (and that the environment variable is added to your PATH variable [as described here](https://geek-university.com/python/add-python-to-the-windows-path/))
-2. Download this repository as a ZIP file (or clone the repository) and unpack it a directory
+2. Download this repository as a ZIP file (or clone the repository) and unpack it into a directory
 ![Alt text](readme/download_zip.png?raw=true "Download as ZIP")
 3. If you are using Windows and want to be able to use this utility from anywhere (not just the install directory), make sure you have [enabled execution of Powershell scripts](https://superuser.com/questions/106360/how-to-enable-execution-of-powershell-scripts)
     - Using a text editor, open **writebillings.ps1** and **drawbillings.ps1** in your install directory and replace the value in quotes with a complete path to your newly downloaded files writebillings.py and drawbillings.py, respectively
@@ -36,11 +36,17 @@ Type **writebillings.ps1 -h** to see a list of supported arguments.
 #### Example usage
 
 >writebillings.ps1 start -l "Programming,Studying" -p Docker -d "Began working through Docker tutorial" -n YourNameHere
+
 >writebillings.ps1 reset -m 12
+
 >writebillings.ps1 pause
+
 >writebillings.ps1 unpause
+
 >writebillings.ps1 end  
+
 >writebillings.ps1 print
+
 >drawbillings.ps1
 
 Start a session in which you spent your time *Programming* and *Studying* on the topic of *Docker*. Here, "YourNameHere" is the name of the client that was created in step 1 of the previous section. Because you forgot to start tracking your time until 12 minutes in, you add 12 minutes to the beginning of the timer. Because you eventually switched to learning about React at the end of the session, you add *React* to the topics you spent time on. 
