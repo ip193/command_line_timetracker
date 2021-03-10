@@ -1,1 +1,1 @@
-python "C:/Users/Jakob Weichselbaumer/Desktop/Move/USERSCRIPTS/drawbillings.py" $args
+python "C:/Your/Directory/Path/Here/drawbillings.py" $args
