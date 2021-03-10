@@ -43,7 +43,7 @@ Type **writebillings.ps1 -h** to see a list of supported arguments.
 
 >writebillings.ps1 unpause
 
->writebillings.ps1 end  
+>writebillings.ps1 end -p React 
 
 >writebillings.ps1 print
 
