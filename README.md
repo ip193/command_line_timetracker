@@ -19,7 +19,7 @@ Command Line program to record and visualize time spent on projects. Create invo
 - In the case of multiple labels/subprojects per session, time spent is split up evenly between labels/subprojects when generating reports or charts
 
 ### Installation
-1. Make sure you have Python installed on your system (and that the environment variable is added to your PATH variable [as described here](https://geek-university.com/python/add-python-to-the-windows-path/))
+1. Make sure you have Python installed on your system (and that the environment variable is added to your PATH variable [as described here](https://geek-university.com/python/add-python-to-the-windows-path/)) along with the packages **matplotlib**, **pandas** and **numpy**. If you don't have these packages, use pip [see here](https://packaging.python.org/tutorials/installing-packages/) to download them. 
 2. Download this repository as a ZIP file (or clone the repository) and unpack it into a directory
 ![Alt text](readme/download_zip.png?raw=true "Download as ZIP")
 3. If you are using Windows and want to be able to use this utility from anywhere (not just the install directory), make sure you have [enabled execution of Powershell scripts](https://superuser.com/questions/106360/how-to-enable-execution-of-powershell-scripts)
