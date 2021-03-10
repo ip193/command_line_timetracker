@@ -1,1 +1,1 @@
-python "C:/Users/Jakob Weichselbaumer/Desktop/Move/USERSCRIPTS/writebillings.py" $args
+python "C:/Your/Directory/Path/Here/writebillings.py" $args
