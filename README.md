@@ -52,8 +52,8 @@ Type **writebillings.ps1 -h** to see a list of supported arguments.
 
 Start a session in which you spent your time *Programming* and *Studying* on the topic of *Docker*. Here, "YourNameHere" is the name of the client that was created in step 1 of the previous section. Because you forgot to start tracking your time until 12 minutes in, you add 12 minutes to the beginning of the timer. Because you eventually switched to learning about React at the end of the session, you add *React* to the topics you spent time on. 
 
-At the end of the session, show some graphics to see how you have spent your time since you started tracking time. Get an estimate for the billing at the end of the month for this client (this isn't relevant for homework, but if you were tracking your time as a freelancer, you would get an estimate for your earnings this month (over 31 days)).  
+At the end of the session, show some graphics to see how you have spent your time since you started tracking time. Get an estimate for the billing at the end of the month for this client (if you are billing hours).  
 
-After your use of the flag **-n YourNameHere**, YourNameHere will be used as the default client for all subsequent calls to the utility. To use another client, first initialize their
+For convenience, after you use the flag **-n YourNameHere**, YourNameHere will be used as the default client for all subsequent calls to the utility. 
 
 
