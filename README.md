@@ -26,22 +26,27 @@ Command Line program to record and visualize time spent on projects. Create invo
     - Using a text editor, open **writebillings.ps1** and **drawbillings.ps1** in your install directory and replace the value in quotes with a complete path to your newly downloaded files writebillings.py and drawbillings.py, respectively
     - Add the install directory to your PATH variable ([as described here](https://stackoverflow.com/questions/44272416/how-to-add-a-folder-to-path-environment-variable-in-windows-10-with-screensho))
 4. If you are not using Windows, replace "\<filename\>.ps1" with "python ./\<filename\>.py" in the commands described below, which will only work within the install directory. Future work on this project will include a bash script analogous to the included Powershell scripts (which merely pass the arguments to python) 
+5. To begin using the program, open **billingsconstants.py** and replace the path at the top of the page with the path to your installation directory. Follow the instructions at the bottom of the file to add a new project. 
+6. Open a Powershell Window and type **writebillings.ps1 NEW -n YourNameHere**, replacing YourNameHere with the new client name. This will initialize the .csv file in which your sessions will be stored 
+
 
 ### Usage
-1. To begin using the program, open **billingsconstants.py** and replace the path at the top of the page with the path to your installation directory. Follow the instructions at the bottom of the file to add a new project. 
-2. Open a Powershell Window and type **writebillings.ps1 NEW -n YourNameHere**, replacing YourNameHere with the new client name. This will initialize the .csv file in which your sessions will be stored 
-
 Type **writebillings.ps1 -h** to see a list of supported arguments. 
 
 #### Example usage
 
->1. writebillings.ps1 start -l "Programming,Studying" -p Docker -d "Began working through Docker tutorial" -n Homework
->2. writebillings.ps1 reset -m 12
->3. writebillings.ps1 end  
->4. drawbillings.ps1
+>writebillings.ps1 start -l "Programming,Studying" -p Docker -d "Began working through Docker tutorial" -n YourNameHere
+>writebillings.ps1 reset -m 12
+>writebillings.ps1 pause
+>writebillings.ps1 unpause
+>writebillings.ps1 end  
+>writebillings.ps1 print
+>drawbillings.ps1
 
-Start a session in which you spent your time *Programming* and *Studying* on the topic of *Docker*. Here, "Homework" is the name of the client that was created in step 1 of the previous section. Because you forgot to start tracking your time until 12 minutes in, you add 12 minutes to the beginning of the timer. Because you eventually switched to learning about React at the end of the session, you add *React* to the topics you spent time on. 
+Start a session in which you spent your time *Programming* and *Studying* on the topic of *Docker*. Here, "YourNameHere" is the name of the client that was created in step 1 of the previous section. Because you forgot to start tracking your time until 12 minutes in, you add 12 minutes to the beginning of the timer. Because you eventually switched to learning about React at the end of the session, you add *React* to the topics you spent time on. 
 
 At the end of the session, show some graphics to see how you have spent your time since you started tracking time. Get an estimate for the billing at the end of the month for this client (this isn't relevant for homework, but if you were tracking your time as a freelancer, you would get an estimate for your earnings this month (over 31 days)).  
+
+After your use of the flag **-n YourNameHere**, YourNameHere will be used as the default client for all subsequent calls to the utility. To use another client, first initialize their
 
 
