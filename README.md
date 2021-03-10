@@ -1,7 +1,7 @@
 # command_line_timetracker
-Command Line program to record and visualize time spent on projects. Create invoices and work overviews easily for multiple clients or projects and visualize the data using **matplotlib**. Written in Python.
+Command Line program to record and visualize time spent on projects. Create invoices and work overviews easily for multiple clients or projects and visualize the data using **matplotlib**.
 
-![Alt text](readme/example_chart.png?raw=true "Download as ZIP")    ![Alt text](readme/example_summary.jpg?raw=true "Download as ZIP")
+![Alt text](readme/example_chart.png?raw=true "Pie Chart visualization")    ![Alt text](readme/example_summary.jpg?raw=true "Console summary output")
 ### Features
 
 #### Time Tracking
