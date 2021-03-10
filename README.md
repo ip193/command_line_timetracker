@@ -15,7 +15,7 @@ Command Line program to record and visualize time spent on projects. Create invo
 #### Data Visualization and Summary
 - Visualize total time spent on a client/project, label or subproject using **matplotlib** (e.g. how much time did I spend doing math homework this last month?)
 - Chart labeling in German or English
-- Generate billings reports on the command line to quickly see total billings, split by client/project, labels, and subprojects
+- Generate billings reports on the command line to quickly see invoice totals, split by client/project, labels, and subprojects
 - Generate a forecast (to next full month) of total and client-specific earnings, broken down by subproject and label
 - In the case of multiple labels/subprojects per session, time spent is split up evenly between labels/subprojects when generating reports or charts
 
