@@ -27,7 +27,7 @@ Command Line program to record and visualize time spent on projects. Create invo
     - Using a text editor, open **writebillings.ps1** and **drawbillings.ps1** in your install directory and replace the value in quotes with a complete path to your newly downloaded files writebillings.py and drawbillings.py, respectively
     - Add the install directory to your PATH variable ([as described here](https://stackoverflow.com/questions/44272416/how-to-add-a-folder-to-path-environment-variable-in-windows-10-with-screensho))
 4. If you are not using Windows, replace "\<filename\>.ps1" with "python ./\<filename\>.py" in the commands described below, which will only work within the install directory. Future work on this project will include a bash script analogous to the included Powershell scripts (which merely pass the arguments to python) 
-5. To begin using the program, open **billingsconstants.py** and replace the path at the top of the page with the path to your installation directory. Follow the instructions at the bottom of the file to add a new project. 
+5. To begin using the program, open **billingsconstants.py** in a text editor and replace the path at the top of the file with the path to your installation directory. Follow the instructions at the bottom of the file to add a new project. 
 6. Open a Powershell Window and type **writebillings.ps1 NEW -n YourNameHere**, replacing YourNameHere with the new client name. This will initialize the .csv file in which your sessions will be stored 
 
 
