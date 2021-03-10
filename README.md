@@ -23,8 +23,8 @@ Command Line program to record and visualize time spent on projects. Create invo
 2. Download this repository as a ZIP file (or clone the repository) and unpack it a directory
 ![Alt text](readme/download_zip.png?raw=true "Download as ZIP")
 3. If you are using Windows and want to be able to use this utility from anywhere (not just the install directory), make sure you have [enabled execution of Powershell scripts](https://superuser.com/questions/106360/how-to-enable-execution-of-powershell-scripts)
-  - Using a text editor, open **writebillings.ps1** and **drawbillings.ps1** in your install directory and replace the value in quotes with a complete path to your newly downloaded files writebillings.py and drawbillings.py, respectively
-  - Add the install directory to your PATH variable ([as described here](https://stackoverflow.com/questions/44272416/how-to-add-a-folder-to-path-environment-variable-in-windows-10-with-screensho))
+    - Using a text editor, open **writebillings.ps1** and **drawbillings.ps1** in your install directory and replace the value in quotes with a complete path to your newly downloaded files writebillings.py and drawbillings.py, respectively
+    - Add the install directory to your PATH variable ([as described here](https://stackoverflow.com/questions/44272416/how-to-add-a-folder-to-path-environment-variable-in-windows-10-with-screensho))
 
 ### Usage
 1. To begin using the program, open **billingsconstants.py** and replace the path at the top of the page with the path to your installation directory. Follow the instructions at the bottom of the file to add a new project. 
