@@ -347,6 +347,18 @@ try:
                     all_labels.remove(default_label_string)
             except KeyError:
                 pass
+                
+                
+        if existing_projects == {default_label_string} and all_projects == existing_projects:
+            warnings.warn(RuntimeWarning("Got only the default project at the beginning and end of session."))
+            
+        else:
+            try:
+                if len(all_projects) > 1:
+                    all_projects.remove(default_label_string)
+            except KeyError:
+                pass
+                
 
         unfinished_entry.labels = set_to_str(all_labels)
         unfinished_entry.projects = set_to_str(all_projects)
